@@ -1,0 +1,7 @@
+{
+  "name": "Sentimood - Social Sentiment Analyzer",
+  "description": "An intelligent social media analysis tool that uses Gemini to detect emotions, sentiment, and underlying tones in text.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
