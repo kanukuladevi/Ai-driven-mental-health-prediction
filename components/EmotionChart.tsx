@@ -25,7 +25,7 @@ const getEmotionColor = (emotion: string): string => {
 };
 
 const CustomTooltip = ({ active, payload, label }: any) => {
-  if (active && payload && payload.length) {
+  if (active && payload && payload.length) { 
     return (
       <div className="bg-slate-800 text-white text-xs px-3 py-2 rounded-lg shadow-xl">
         <p className="font-semibold mb-1 capitalize">{label}</p>
