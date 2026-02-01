@@ -8,7 +8,6 @@ import { VideoAnalyzer } from './components/VideoAnalyzer';
 import { GameCenter } from './components/GameCenter';
 import { MessageSquareHeart, Github, LogOut, Video, Gamepad2, Type } from 'lucide-react';
 
-
 const App: React.FC = () => {
   const [user, setUser] = useState<{name: string, avatar: string} | null>(null);
   const [activeTab, setActiveTab] = useState<NavTab>('text');
